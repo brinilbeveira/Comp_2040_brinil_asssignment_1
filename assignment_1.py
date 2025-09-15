@@ -111,7 +111,7 @@ for line in lines:
 for line in lines:
     print(line)
 
-with open("output_2.txt", "w") as file:
+with open("output_2_.txt", "w") as file:
     for line in lines:
         file.write(line + "\n")
 
